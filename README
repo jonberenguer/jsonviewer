@@ -1,3 +1,12 @@
 Online Json Viewer http://liruqi.github.io/jsonviewer/
 
 Code grabbed from http://jsonviewer.stack.hu/
+
+## Docker 
+Docker container is built from a fork of the original [liruqi/jsonviewer] (https://github.com/liruqi/jsonviewer). 
+The following is the steps to pull and run the container. 
+
+```
+docker pull jonberenguer/jsonviewer
+docker run -d -p 80:80 jonberenguer/jsonviewer
+```
